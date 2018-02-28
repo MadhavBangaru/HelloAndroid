@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="BottomTagline">\tJoin Udacity to upskill and get ready for jobs of today and tomorrow</string>
+    <string name="Address">2465 Latham St \nMountain View, CA 94043</string>
+    <string name="Udacity">Udacity</string>
+    <string name="Phone">650-555-5555</string>
+    <string name="Website">www.udacity.com</string>
+
+
+</resources>

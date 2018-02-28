@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.madhavbangaru.helloandroid.MainActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/udacity"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/ImagebackColor"
+            android:gravity="center"
+            android:src="@drawable/udacity" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/LinLayoutbackColor"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/MainPaddingTop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/PaddingTop">
+
+                <ImageView
+                    style="@style/ImageIcons"
+                    android:src="@drawable/blue" />
+
+                <TextView
+                    style="@style/Udacity"
+                    android:text="@string/Udacity" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/PaddingTop">
+
+                <ImageView
+                    style="@style/ImageIcons"
+                    android:src="@drawable/call" />
+
+                <TextView
+                    style="@style/Details"
+                    android:autoLink="phone"
+                    android:text="@string/Phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/PaddingTop">
+
+                <ImageView
+                    style="@style/ImageIcons"
+                    android:src="@drawable/globe" />
+
+                <TextView
+                    style="@style/Details"
+                    android:autoLink="web"
+                    android:text="@string/Website" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/PaddingTop">
+
+                <ImageView
+                    style="@style/ImageIcons"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    style="@style/Details"
+                    android:autoLink="map"
+                    android:text="@string/Address" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/Bottomtagline"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/BottomTaglinePadding"
+                android:text="@string/BottomTagline" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

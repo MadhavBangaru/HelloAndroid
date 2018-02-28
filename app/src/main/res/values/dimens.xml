@@ -1,0 +1,12 @@
+<resources>
+    
+    
+    <dimen name="BottomTaglineTextSize">18sp</dimen>
+    <dimen name="BottomTaglinePadding">16dp</dimen>
+    <dimen name="TextSize">20sp</dimen>
+    <dimen name="marginLeft">16dp</dimen>
+    <dimen name="MainPaddingTop">16dp</dimen>
+    <dimen name="PaddingTop">8dp</dimen>
+    <dimen name="IconImagewidth">24dp</dimen>
+    <dimen name="IconImageHeight">27dp</dimen>
+</resources>
